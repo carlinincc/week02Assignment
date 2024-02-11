@@ -1,0 +1,124 @@
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    font-size: 1.5em;
+}
+ 
+a {
+    color:white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subheading1 {
+    text-align: center;
+    text-decoration: dashed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subheading2 {
+    text-align: center;
+    text-decoration: dashed;
+    font-family: "Lucida Console", monospace;
+}
+
+.description {
+    text-align: center;
+}
+
+.textbox {
+    width: 800px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#boxsize {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+      
+#boxsize td, #boxsize th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+      
+#boxsize tr:nth-child(even) {
+    background-color: lightgray;
+}
+      
+#boxsize th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.signup {
+    display: flex;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#listheading {
+    display: block;
+    background-color: black;
+    width: 400px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#list {
+    text-align: center;
+}
+
+#placeslist {
+    display: inline-block;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
