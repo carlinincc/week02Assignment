@@ -35,7 +35,6 @@ a:hover {
 
 .subheading1 {
     text-align: center;
-    text-decoration: dashed;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2em;
     margin: 0px;
@@ -44,7 +43,6 @@ a:hover {
 
 .subheading2 {
     text-align: center;
-    text-decoration: dashed;
     font-family: "Lucida Console", monospace;
 }
 
@@ -70,7 +68,7 @@ a:hover {
     margin-right: auto;
 }
       
-#boxsize td, #boxsize th {
+#boxsize td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
